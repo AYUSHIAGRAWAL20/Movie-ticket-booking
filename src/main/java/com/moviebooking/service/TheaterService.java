@@ -42,6 +42,10 @@ public class TheaterService {
         return theaterRepository.findByCityId(cityId);
     }
 
+    public List<Theater> getAllTheaters() {
+        return theaterRepository.findAll();
+    }
+
     public Theater getTheaterById(Long id) {
         return theaterRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Theater not found with id: " + id));
