@@ -312,9 +312,6 @@ Shows 14 commits from project setup through DTO creation, demonstrating:
 - Concurrent booking scenarios
 - Discount code validation
 
-## License
-
-This is a take-home assignment project for SDE-2 position evaluation.
 
 ---
 
